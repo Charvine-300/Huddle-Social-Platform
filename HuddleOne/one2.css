@@ -1,0 +1,80 @@
+:root {
+    --o-barlow-font-family: Helvetica; 
+}
+
+body {
+    background-color: #000000;
+}
+
+/*==========  ID Rules  ==========*/
+#container {
+    width: 700px;
+    height: 1600px;
+    margin: 0px auto;
+    background-color: #663ba1;
+}
+
+#center {
+    width: 350px;
+    height: 40px;
+    padding: 20px;
+    font-size: 30px;
+    margin: 0px auto;
+    color:  #663ba1;
+    position: relative;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 3px #3a225c;
+    font-family: var(--o-barlow-font-family);
+}
+
+
+
+/*==========  Class Rules  ==========*/
+.logo {
+    margin-top: 60px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.queries {
+    width: 600px;
+    margin-top: 220px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+
+
+/*==========  Element Rules  ==========*/
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 75px;
+    position: relative;
+    text-align: center;
+    margin: 100px 70px 30px 70px;
+    font-family: var(--o-barlow-font-family);
+}
+
+p {
+    font-size: 30px;
+    color: #d6d2d2;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    font-weight: lighter;
+    margin: 0px 60px 80px 60px;
+    font-family: var(--o-barlow-font-family);
+}
+
+
+/*==========  Animations and Effects  ==========*/
+#center:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
